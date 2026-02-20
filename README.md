@@ -4,13 +4,13 @@ Proyecto de prueba para el factorial.
 ## Requisitos
 
 ### Versión Python
-- Python 3.11+
+- Python 3.13+
 - pytest
 - coverage
 - pytest-cov
 
 ### Versión Java
-- Java JDK 11+
+- Java JDK 18+
 - Maven
 - JUnit
 - Jacoco
