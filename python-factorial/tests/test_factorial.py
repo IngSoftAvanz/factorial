@@ -56,7 +56,7 @@ class TestFactorial:
         with pytest.raises(TypeError):
             self.factorial.fact(2.5)
 
-    @pytest.mark.parametrize("n", ["5", [5], (5), {5}, {'n': 5}], ids=lambda x: f"Argumento no es un número entero: {x}")
+    @pytest.mark.parametrize("n", ["5", [-5], {5}, {'n': 5}], ids=lambda x: f"Argumento no es un número entero: {x}")
     def test_argumento_no_es_numero(self, n: Any):
         """Lanza excepción si el argumento no es un número entero"""
         with pytest.raises(TypeError):
