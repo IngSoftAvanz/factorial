@@ -1,6 +1,7 @@
 # isa-factorial
 Proyecto de prueba para el factorial.
 
-# Requisitos
+## Requisitos
 - Python 3.11+
 - Pytest
+- Java JDK 11+
