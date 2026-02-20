@@ -19,9 +19,9 @@ Proyecto de prueba para el factorial.
 ## Preparación del entorno
 
 ### Python
-1. Clonar este repositorio: `git clone https://github.com/jmhorcas/isa-factorial.git`
+1. Clonar este repositorio: `git clone https://github.com/IngSoftAvanz/factorial`
 2. Desplazarse a la carpeta del proyecto:
-   `cd isa-factorial/python-factorial`
+   `cd factorial/python-factorial`
 3. Crear entorno virtual: `python -m venv env` (esto crea una carpeta `env` para el entorno virtual)
 4. Activar el entorno virtual:
     - En Windows: `.\env\Scripts\Activate`
@@ -29,7 +29,10 @@ Proyecto de prueba para el factorial.
 5. Instalar dependencias: `pip install -r requirements.txt`
 
 ### Java
-1. Compilar con Maven: `mvn clean compile`
+1. Clonar este repositorio: `git clone https://github.com/IngSoftAvanz/factorial`
+2. Desplazarse a la carpeta del proyecto:
+   `cd factorial/java-factorial`
+3. Compilar con Maven: `mvn clean compile`
 
 
 ## Ejecución
