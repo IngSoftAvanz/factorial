@@ -89,7 +89,7 @@ public class ViewFactImpl2 extends JFrame implements ViewFactorial {
 
 	@Override
 	public void setMessage(String msg) {
-		this.lblResultado.setText("! = ");
+		this.lblResultado.setText("! = ¿?");
 		this.lblError.setText(msg);
 	}
 
